@@ -1,0 +1,19 @@
+.image{
+    background-image: url(./istockphoto-1358014313-170667a.webp);
+    background-blend-mode: multiply;
+    background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+ .col .card{
+    background-color: orange;
+ }
+ h1{
+    color:yellow;
+ }
+ .cour{
+    color: orange;
+ }
+.login{
+    padding: px;
+}

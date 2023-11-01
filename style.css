@@ -1,0 +1,127 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+/* :root{
+     --bs-dark-color:#1a1d20; 
+    --bs-primary-color:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color:#29a9fd;
+    --bs-supporting-color:#c850c0;
+} */
+h1 h2 h3 h4 h5{
+    font-family: sans-serif;
+     /* color:var(--bs-dark-color); */
+}
+h1{
+    font-size: 3.8 rem;
+}
+h2{
+    line-height: 3rem;
+    font-weight:600;
+    font-size: 3.4rem;
+}
+p{
+    margin:0;
+    font-weight:400;
+    font-size:1rem;
+    color:var(pink);
+    letter-spacing: 0.08rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.hero-image--section{
+     height:auto;
+    width:30rem;
+    border-radius: 1rem;
+}
+.hero-section .container{
+    display: grid;
+    place-content:center;
+    height:inherit;
+}
+.hero-section2 .container{
+display:grid;
+place-content:center;
+}
+.hero-image--section2{
+    height:auto;
+    width:30rem;
+    border-radius: 2rem;
+    padding-top: 100px;
+    padding-right: 40px; 
+}
+.bg-main{
+   
+    position:relative;
+    height:80vh;
+}
+
+.bg-color h1{
+    color: white;
+}
+
+.bg-color p{
+    color: white;
+}
+.active, .nav-item a:hover{
+    color: blue!important; ;
+}
+.nav-link{
+    color:white;
+}
+button, a{
+    font-size: 1.5rem !important;
+    letter-spacing: 0.03rem;
+     word-spacing: .1rem;
+}
+.custom-shape-divider-bottom-1698236323 {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1698236323 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1px);
+    height: 120px;
+}
+
+.custom-shape-divider-bottom-1698236323 .shape-fill {
+    fill:#FFFF;
+}
+.common-heading{
+    font-size:2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem !important;
+}
+.common-title{
+    margin-bottom: 4.2rem;
+}
+.services-section{
+    padding: 6rem 0 3rem 0 !important;
+}
+.bg-main2{
+    position:relative;
+    height:80vh;
+}
+.mainhead{
+  background-size: cover;
+  min-height: 80vh; 
+  
+}
